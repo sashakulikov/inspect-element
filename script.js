@@ -31,14 +31,14 @@ $(document).ready(function(){
           break;
 
           case 38: // up
-            scaling = scaling + 0.3;
+            scaling = scaling + 0.15;
             $('.active').css({
               'transform': 'rotate('+rotation+'deg) scale('+scaling+')'
             });
           break;
 
           case 40: // down
-            scaling = scaling - 0.3;
+            scaling = scaling - 0.15;
             $('.active').css({
               'transform': 'rotate('+rotation+'deg) scale('+scaling+')'
             });
