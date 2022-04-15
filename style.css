@@ -25,7 +25,7 @@ h1{
   position:fixed;
   font-family: 'Times New Roman';
   font-weight: 200;
-  font-size: 1000;
+  font-size: 100px;
 }
 
 .active, .positioned{
