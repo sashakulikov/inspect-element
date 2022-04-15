@@ -1,0 +1,55 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.done {
+  animation:strobe 500ms steps(1,end) infinite;
+   color: black;
+}
+
+@keyframes strobe {
+    50% {
+    background: black;
+    color: white;
+  };
+}
+
+h1{
+  display: none;
+  position:fixed;
+  font-family: 'Times New Roman';
+  font-weight: 200;
+  font-size: 100;
+}
+
+.active, .positioned{
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  opacity: 60%;
+}
+
+.wrapper {
+  margin-left: 6px;
+  margin-top: 5px;
+  opacity: 20%;
+}
+
+#foot {
+  position: fixed;
+  bottom: 5px;
+  left: 6px;
+  opacity: 20%;
+}
