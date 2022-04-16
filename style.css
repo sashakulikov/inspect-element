@@ -7,11 +7,6 @@
   margin: 0;
   padding: 0;
   font-smooth: always;
-  -webkit-transform: translate3d(0,0,1px);
-  -moz-transform: translate3d(0,0,1px);
-  -ms-transform: translate3d(0,0,1px);
-  -o-transform: translate3d(0,0,1px);
-  transform: translate3d(0,0,1px);
 }
 
 .done {
@@ -33,6 +28,11 @@ h1{
   font-weight: 200;
   font-size: 100;
   letter-spacing: -0.5px;
+  -webkit-transform: translate3d(0,0,1px);
+  -moz-transform: translate3d(0,0,1px);
+  -ms-transform: translate3d(0,0,1px);
+  -o-transform: translate3d(0,0,1px);
+  transform: translate3d(0,0,1px);
 }
 
 .active, .positioned{
